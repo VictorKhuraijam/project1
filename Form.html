@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Hind:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cerberus</title>
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="main-header-logo">
+        <img src="images/Pic2.png" alt="Batman logo" />
+      </div>
+      <nav class="main-header-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Form.html">Form</a></li>
+          <li><a href="Sites.html">Sites</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="main-header-sm">
+        <a href="www.facebook.com" target="_blank"
+          ><img
+            src="images/facebook (2).png"
+            width="50px"
+            height="50px"
+            alt="facebook"
+        /></a>
+        <a href="www.instagram.com" target="_blank"
+          ><img
+            src="images/instagram.png"
+            width="50px"
+            height="50px"
+            alt="instagram"
+        /></a>
+      </div>
+    </div>
+
+    <h1>Form survey</h1>
+
+    <form action="/form-handling-url" method="post">
+      <fieldset>
+        <legend>Add User</legend>
+
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" name="first_name" id="firstName" >
+        </div>
+
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" name="last_name" id="lastName" >
+        </div>
+
+        <div>
+          <label for="comments">Comments</label>
+          <textarea name="comments" id="comments" cols="10" rows="5"></textarea>
+        </div>
+
+        <div>
+          <input type="checkbox" name="sign_up" id="sign-up" >
+          <label for="sign_up">Sign up </label>
+        </div>
+
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
